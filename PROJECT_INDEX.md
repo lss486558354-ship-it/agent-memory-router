@@ -39,6 +39,7 @@ Agent → search_memory → 摘要列表（~200 字节/条）→ 判断相关 �
 | `init_db.py` | 建库建表 | 不要写业务逻辑 |
 | `CLAUDE.md` / `.cursorrules` | Agent 行为约束（四条铁律） | —— |
 | `.claude/skills/memory-manager/SKILL.md` | 读写 SOP、反模式 | —— |
+| `docs/GOAL.md` | 需求原点、五模块验收标准、明确不做的事 | —— |
 | `tests/test_memory_core.py` | 行为测试 + 安全测试 | —— |
 
 ## 四、数据流
@@ -108,6 +109,7 @@ validate ID（正则）→ 查 entities → 查 file_path 存在性
 | 2026-10-24 | 加入 29 个离线测试（含目录穿越、LIKE 转义、大小上限） |
 | 2026-10-24 | 加入 `CLAUDE.md`、`.cursorrules`、`memory-manager` Skill |
 | 2026-10-24 | 加入 README、LICENSE、pyproject、gitignore，准备开源 |
+| 2026-10-24 | 加入 `docs/GOAL.md`，固化原始需求与验收标准 |
 
 ## 九、技术债务
 
