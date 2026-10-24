@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# 测试与静态检查缓存
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# 记忆数据：每个人、每台机器的本地私有数据，绝不入库
+data/
+raw_data/*
+!raw_data/.gitkeep
+
+# 本地环境
+.env
+.env.*

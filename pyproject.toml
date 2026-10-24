@@ -1,0 +1,17 @@
+[project]
+name = "agent-memory-router"
+version = "0.1.0"
+description = "基于 MCP 的 Agent 本地记忆路由：先搜摘要，再按需取原文"
+requires-python = ">=3.10"
+dependencies = ["mcp>=2.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
